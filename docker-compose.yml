@@ -1,0 +1,19 @@
+version: '3.3'
+services:
+  dbMysql:
+    image: mysql:8.0
+    command: --default-authentication-plugin=mysql_native_password
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: portifolio
+
+  phpmyadmin:
+    image: phpmyadmin
+    environment:
+      - PMA_ARBITRARY=1
+    links:
+      - dbMysql:dbMysql
+  
+  php:
+    image: php:7.2-apache
+   

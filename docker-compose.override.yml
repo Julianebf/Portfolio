@@ -1,0 +1,16 @@
+version: '3.3'
+
+services:
+  dbMysql:
+    ports:
+      - "3306:3306"
+
+  php:
+    ports:
+      - 8082:80
+    volumes:
+      - ./art:/var/www/html
+
+  phpmyadmin:
+    ports:
+       - 8081:80
