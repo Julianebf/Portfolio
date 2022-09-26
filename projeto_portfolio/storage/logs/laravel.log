@@ -1,0 +1,433 @@
+[2022-09-25 17:29:14] local.ERROR: The "-l" option does not exist. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\RuntimeException(code: 0): The \"-l\" option does not exist. at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Input/ArgvInput.php:122)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Input/ArgvInput.php(104): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOptionSet()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Input/ArgvInput.php(84): Symfony\\Component\\Console\\Input\\ArgvInput->parseShortOption()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Input/ArgvInput.php(71): Symfony\\Component\\Console\\Input\\ArgvInput->parseToken()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Input/Input.php(55): Symfony\\Component\\Console\\Input\\ArgvInput->parse()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Command/Command.php(267): Symfony\\Component\\Console\\Input\\Input->bind()
+#5 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(1002): Symfony\\Component\\Console\\Command\\Command->run()
+#6 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(299): Symfony\\Component\\Console\\Application->doRunCommand()
+#7 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#8 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#9 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(151): Illuminate\\Console\\Application->run()
+#10 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#11 {main}
+"} 
+[2022-09-25 17:30:36] local.ERROR: Command "server" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"server\" is not defined.
+
+Did you mean one of these?
+    make:observer
+    serve at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php:692)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(151): Illuminate\\Console\\Application->run()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2022-09-25 17:30:42] local.ERROR: Command "sever" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"sever\" is not defined. at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php:692)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(151): Illuminate\\Console\\Application->run()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2022-09-25 19:43:01] local.ERROR: Command "make:" is ambiguous.
+Did you mean one of these?
+    make:cast         Create a new custom Eloquent cast class
+    make:channel      Create a new channel class
+    make:component    Create a new view component class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:scope        Create a new scope class
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class
+    make:migration    Create a new migration file. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:\" is ambiguous.
+Did you mean one of these?
+    make:cast         Create a new custom Eloquent cast class
+    make:channel      Create a new channel class
+    make:component    Create a new view component class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:scope        Create a new scope class
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class
+    make:migration    Create a new migration file. at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php:733)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(151): Illuminate\\Console\\Application->run()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2022-09-25 19:43:26] local.ERROR: Command "make:" is ambiguous.
+Did you mean one of these?
+    make:cast         Create a new custom Eloquent cast class
+    make:channel      Create a new channel class
+    make:component    Create a new view component class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:scope        Create a new scope class
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class
+    make:migration    Create a new migration file. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:\" is ambiguous.
+Did you mean one of these?
+    make:cast         Create a new custom Eloquent cast class
+    make:channel      Create a new channel class
+    make:component    Create a new view component class
+    make:command      Create a new Artisan command
+    make:controller   Create a new controller class
+    make:event        Create a new event class
+    make:exception    Create a new custom exception class
+    make:factory      Create a new model factory
+    make:job          Create a new job class
+    make:listener     Create a new event listener class
+    make:mail         Create a new email class
+    make:middleware   Create a new middleware class
+    make:model        Create a new Eloquent model class
+    make:notification Create a new notification class
+    make:observer     Create a new observer class
+    make:policy       Create a new policy class
+    make:provider     Create a new service provider class
+    make:request      Create a new form request class
+    make:resource     Create a new resource
+    make:rule         Create a new validation rule
+    make:scope        Create a new scope class
+    make:seeder       Create a new seeder class
+    make:test         Create a new test class
+    make:migration    Create a new migration file. at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php:733)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(151): Illuminate\\Console\\Application->run()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2022-09-26 11:20:17] local.ERROR: Target class [App\Http\Controllers\ProjectController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Controllers\\ProjectController] does not exist. at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php:877)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\\Container\\Container->build()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\\Container\\Container->resolve()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\\Foundation\\Application->resolve()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\\Container\\Container->make()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(275): Illuminate\\Foundation\\Application->make()
+#5 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1077): Illuminate\\Routing\\Route->getController()
+#6 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1020): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(719): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#9 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack()
+#10 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(667): Illuminate\\Routing\\Router->runRoute()
+#11 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute()
+#12 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Routing\\Router->dispatch()
+#13 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#14 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#16 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#17 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#19 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#20 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#22 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#24 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#26 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#28 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(164): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(133): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#31 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#32 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#33 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Http\\Controllers\\ProjectController\" does not exist at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php:875)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\\Container\\Container->build()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\\Container\\Container->resolve()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\\Foundation\\Application->resolve()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\\Container\\Container->make()
+#5 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(275): Illuminate\\Foundation\\Application->make()
+#6 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1077): Illuminate\\Routing\\Route->getController()
+#7 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1020): Illuminate\\Routing\\Route->controllerMiddleware()
+#8 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Route->gatherMiddleware()
+#9 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(719): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#10 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack()
+#11 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(667): Illuminate\\Routing\\Router->runRoute()
+#12 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute()
+#13 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Routing\\Router->dispatch()
+#14 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#15 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#17 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#18 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#21 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#23 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#25 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#27 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#29 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(164): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(133): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#32 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#33 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#34 {main}
+"} 
+[2022-09-26 11:20:20] local.ERROR: Target class [App\Http\Controllers\ProjectController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Controllers\\ProjectController] does not exist. at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php:877)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\\Container\\Container->build()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\\Container\\Container->resolve()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\\Foundation\\Application->resolve()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\\Container\\Container->make()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(275): Illuminate\\Foundation\\Application->make()
+#5 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1077): Illuminate\\Routing\\Route->getController()
+#6 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1020): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(719): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#9 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack()
+#10 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(667): Illuminate\\Routing\\Router->runRoute()
+#11 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute()
+#12 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Routing\\Router->dispatch()
+#13 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#14 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#16 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#17 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#19 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#20 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#22 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#24 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#26 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#28 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(164): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(133): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#31 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#32 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#33 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Http\\Controllers\\ProjectController\" does not exist at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php:875)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\\Container\\Container->build()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\\Container\\Container->resolve()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\\Foundation\\Application->resolve()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\\Container\\Container->make()
+#5 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(275): Illuminate\\Foundation\\Application->make()
+#6 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1077): Illuminate\\Routing\\Route->getController()
+#7 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1020): Illuminate\\Routing\\Route->controllerMiddleware()
+#8 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Route->gatherMiddleware()
+#9 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(719): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#10 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack()
+#11 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(667): Illuminate\\Routing\\Router->runRoute()
+#12 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute()
+#13 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Routing\\Router->dispatch()
+#14 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#15 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#17 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#18 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#21 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#23 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#25 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#27 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#29 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(164): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(133): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#32 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#33 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#34 {main}
+"} 
+[2022-09-26 11:22:21] local.ERROR: Target class [App\Http\Controllers\ProjectController] does not exist. {"exception":"[object] (Illuminate\\Contracts\\Container\\BindingResolutionException(code: 0): Target class [App\\Http\\Controllers\\ProjectController] does not exist. at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php:877)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\\Container\\Container->build()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\\Container\\Container->resolve()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\\Foundation\\Application->resolve()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\\Container\\Container->make()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(275): Illuminate\\Foundation\\Application->make()
+#5 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1077): Illuminate\\Routing\\Route->getController()
+#6 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1020): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(719): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#9 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack()
+#10 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(667): Illuminate\\Routing\\Router->runRoute()
+#11 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute()
+#12 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Routing\\Router->dispatch()
+#13 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#14 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#15 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#16 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#17 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#18 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#19 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#20 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#21 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#22 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#23 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#24 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#25 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#26 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#27 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#28 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#29 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(164): Illuminate\\Pipeline\\Pipeline->then()
+#30 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(133): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#31 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#32 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#33 {main}
+
+[previous exception] [object] (ReflectionException(code: -1): Class \"App\\Http\\Controllers\\ProjectController\" does not exist at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php:875)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(875): ReflectionClass->__construct()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(756): Illuminate\\Container\\Container->build()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(860): Illuminate\\Container\\Container->resolve()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Container/Container.php(692): Illuminate\\Foundation\\Application->resolve()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(845): Illuminate\\Container\\Container->make()
+#5 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(275): Illuminate\\Foundation\\Application->make()
+#6 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1077): Illuminate\\Routing\\Route->getController()
+#7 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Route.php(1020): Illuminate\\Routing\\Route->controllerMiddleware()
+#8 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(737): Illuminate\\Routing\\Route->gatherMiddleware()
+#9 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(719): Illuminate\\Routing\\Router->gatherRouteMiddleware()
+#10 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(703): Illuminate\\Routing\\Router->runRouteWithinStack()
+#11 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(667): Illuminate\\Routing\\Router->runRoute()
+#12 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Routing/Router.php(656): Illuminate\\Routing\\Router->dispatchToRoute()
+#13 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(189): Illuminate\\Routing\\Router->dispatch()
+#14 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(141): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}()
+#15 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#16 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#17 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle()
+#18 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#19 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle()
+#20 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle()
+#21 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#22 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle()
+#23 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#24 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle()
+#25 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#26 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle()
+#27 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#28 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle()
+#29 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}()
+#30 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(164): Illuminate\\Pipeline\\Pipeline->then()
+#31 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(133): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter()
+#32 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle()
+#33 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/resources/server.php(16): require_once('...')
+#34 {main}
+"} 
+[2022-09-26 15:21:58] local.ERROR: Command "sever" is not defined. {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"sever\" is not defined. at /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php:692)
+[stacktrace]
+#0 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(259): Symfony\\Component\\Console\\Application->find()
+#1 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/symfony/console/Application.php(171): Symfony\\Component\\Console\\Application->doRun()
+#2 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Console/Application.php(102): Symfony\\Component\\Console\\Application->run()
+#3 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(151): Illuminate\\Console\\Application->run()
+#4 /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle()
+#5 {main}
+"} 
+[2022-09-28 17:52:25] local.ERROR: file_put_contents(/var/www/html/storage/framework/views/0373776feac9eed24dd270b6f315537d7b76f53b.php): Failed to open stream: Permission denied {"exception":"[object] (ErrorException(code: 0): file_put_contents(/var/www/html/storage/framework/views/0373776feac9eed24dd270b6f315537d7b76f53b.php): Failed to open stream: Permission denied at /var/www/html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php:190)
+[stacktrace]
+#0 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/HandleExceptions.php(259): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(2, 'file_put_conten...', '/var/www/html/v...', 190)
+#1 [internal function]: Illuminate\\Foundation\\Bootstrap\\HandleExceptions->Illuminate\\Foundation\\Bootstrap\\{closure}(2, 'file_put_conten...', '/var/www/html/v...', 190)
+#2 /var/www/html/vendor/laravel/framework/src/Illuminate/Filesystem/Filesystem.php(190): file_put_contents('/var/www/html/s...', '<?php $__env->s...', 0)
+#3 /var/www/html/vendor/laravel/framework/src/Illuminate/View/Compilers/BladeCompiler.php(176): Illuminate\\Filesystem\\Filesystem->put('/var/www/html/s...', '<?php $__env->s...')
+#4 /var/www/html/vendor/laravel/framework/src/Illuminate/View/Engines/CompilerEngine.php(55): Illuminate\\View\\Compilers\\BladeCompiler->compile('/var/www/html/v...')
+#5 /var/www/html/vendor/laravel/framework/src/Illuminate/View/View.php(139): Illuminate\\View\\Engines\\CompilerEngine->get('/var/www/html/v...', Array)
+#6 /var/www/html/vendor/laravel/framework/src/Illuminate/View/View.php(122): Illuminate\\View\\View->getContents()
+#7 /var/www/html/vendor/laravel/framework/src/Illuminate/View/View.php(91): Illuminate\\View\\View->renderContents()
+#8 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Response.php(69): Illuminate\\View\\View->render()
+#9 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Response.php(35): Illuminate\\Http\\Response->setContent(Object(Illuminate\\View\\View))
+#10 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(57): Illuminate\\Http\\Response->__construct(Object(Illuminate\\View\\View), 404, Array)
+#11 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/ResponseFactory.php(87): Illuminate\\Routing\\ResponseFactory->make(Object(Illuminate\\View\\View), 404, Array)
+#12 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(618): Illuminate\\Routing\\ResponseFactory->view('errors::404', Array, 404, Array)
+#13 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(543): Illuminate\\Foundation\\Exceptions\\Handler->renderHttpException(Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#14 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(449): Illuminate\\Foundation\\Exceptions\\Handler->prepareResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#15 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(366): Illuminate\\Foundation\\Exceptions\\Handler->renderExceptionResponse(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#16 /var/www/html/vendor/laravel/framework/src/Illuminate/Routing/Pipeline.php(51): Illuminate\\Foundation\\Exceptions\\Handler->render(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#17 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(143): Illuminate\\Routing\\Pipeline->handleException(Object(Illuminate\\Http\\Request), Object(Symfony\\Component\\HttpKernel\\Exception\\NotFoundHttpException))
+#18 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#19 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ConvertEmptyStringsToNull.php(31): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#20 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ConvertEmptyStringsToNull->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#21 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TransformsRequest.php(21): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#22 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/TrimStrings.php(40): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#23 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\TrimStrings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#24 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/ValidatePostSize.php(27): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#25 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#26 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Middleware/PreventRequestsDuringMaintenance.php(86): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#27 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Foundation\\Http\\Middleware\\PreventRequestsDuringMaintenance->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/HandleCors.php(49): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\HandleCors->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#30 /var/www/html/vendor/laravel/framework/src/Illuminate/Http/Middleware/TrustProxies.php(39): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#31 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(180): Illuminate\\Http\\Middleware\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#32 /var/www/html/vendor/laravel/framework/src/Illuminate/Pipeline/Pipeline.php(116): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#33 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(164): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#34 /var/www/html/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(133): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#35 /var/www/html/public/index.php(52): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#36 {main}
+"} 
