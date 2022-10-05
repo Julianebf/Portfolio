@@ -31,14 +31,14 @@
 
                         <button class="btn #424242 grey darken-3" type="submit">Enviar</button>
                        
-                        <div href="https://www.linkedin.com/in/juliane-bezerra-ferreira/" class="input-field col s12">
+                        <div href="" class="input-field col s12">
                             <a class="waves-effect waves-light btn-floating btn-large social linkedin">
                                 <i class="fa fa-linkedin #039be5 light-blue darken-1"></i> </a>
                             
                             <a href="https://www.instagram.com/juliane_bzrr/" class="waves-effect waves-light btn-floating btn-large social instagram">
                                 <i class="fa fa-instagram #ec407a pink lighten-1"></i></a>
                             
-                            <a href="https://github.com/Julianebf" class="waves-effect waves-light btn-floating btn-large social github">
+                            <a href="url" class="waves-effect waves-light btn-floating btn-large social github">
                                 <i class="fa fa-github #212121 grey darken-4"></i> Sign in with github</a>
 
                         </div>
@@ -53,4 +53,4 @@
      <!--JavaScript at end of body for optimized loading-->
      <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
    </body>
- </html>
+ </html><?php /**PATH /app/resources/views/contact.blade.php ENDPATH**/ ?>
