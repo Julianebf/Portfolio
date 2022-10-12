@@ -1,56 +1,71 @@
 <!DOCTYPE html>
- <html>
-    <head>
-        <!--Import Google Icon Font-->
-        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <!--Import materialize.css-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-        <!--Let browser know website is optimized for mobile-->
-        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>Portfólio  | Front</title>
-    </head>
-    <body>
-       <div class="section container">
-            <div class="row">
-                <form class="col s12">
-                    <div class="row card-panel">
-
-                        <div class="input-field col s6">
-                            <input type="text" id="nome">
-                            <label for="nome">Nome</label>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="/css/app.css">
+    <title>Portfólio  | Front</title>
+</head>
+<body>
+    @include('navbar');
+    <section class="contact" id="contact">
+        <div class="max-width">
+            <h2 class="title">Contato</h2>
+            <div class="contact-content">
+               <div class="column left">
+               <div class="icons">
+                   <div class="row">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <div class="info">
+                            <div class="head">Nome</div>
+                            <div class="sub-title">Juliane Bezerra</div>
                         </div>
-                        <div class="input-field col s6">
-                            <input type="text" id="email">
-                            <label for="nome">Email</label>
+                   </div>
+                   <div class="row">
+                    <ion-icon name="earth-outline"></ion-icon>
+                    <div class="info">
+                        <div class="head">Endereço</div>
+                        <div class="sub-title">Crato, Ce</div>
+                    </div>
+               </div>
+               <div class="row">
+                <ion-icon name="person-outline"></ion-icon>
+                <div class="info">
+                    <div class="head">Email</div>
+                    <div class="sub-title">fbjuliane@gmail.com</div>
+                </div>
+            </div>
+        </div>
+            </div><!--column left-->
+            <div class="column rigth">
+                <div class="text">Mensagem</div>
+                <form action="#">
+                    <div class="fields">
+                        <div class="field name">
+                            <input type="text" placeholder="Nome" required>
                         </div>
-                        <div class="input-field col s12">
-                            <input type="text" placeholder="Escreva" id="texto">
-                            <label for="nome">Caixa de diálogo</label>
+                        <div class="field email">
+                            <input type="email" placeholder="Email" required>
                         </div>
-
-                        <button class="btn #424242 grey darken-3" type="submit">Enviar</button>
-                       
-                        <div href="https://www.linkedin.com/in/juliane-bezerra-ferreira/" class="input-field col s12">
-                            <a class="waves-effect waves-light btn-floating btn-large social linkedin">
-                                <i class="fa fa-linkedin #039be5 light-blue darken-1"></i> </a>
-                            
-                            <a href="https://www.instagram.com/juliane_bzrr/" class="waves-effect waves-light btn-floating btn-large social instagram">
-                                <i class="fa fa-instagram #ec407a pink lighten-1"></i></a>
-                            
-                            <a href="https://github.com/Julianebf" class="waves-effect waves-light btn-floating btn-large social github">
-                                <i class="fa fa-github #212121 grey darken-4"></i> Sign in with github</a>
-
+                    </div>
+                    <div class="field">
+                        <div class="field">
+                            <input type="text" placeholder="Sobrenome" required>
                         </div>
-            
+                        <div class="field textarea">
+                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
+                        </div>
+                        <div class="button">
+                            <button type="submit">Enviar</button> </div> <br> <a href="https://www.instagram.com/juliane_bzrr/" target="_blank"><img src="/css/images/insta.png" width="50px" alt=""></a> <a href="https://github.com/Julianebf" target="_blank"><img src="/css/images/github.png" width="50px" alt=""></a> <a href="https://www.linkedin.com/in/juliane-bezerra-ferreira/" target="_blank"><img src="/css/images/linkedin.png" width="50px" alt=""></a> 
                         </div>
                     </div>
                 </form>
-
+            </div>
             </div>
         </div>
-            </div>
-     <!--JavaScript at end of body for optimized loading-->
-     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-   </body>
- </html>
+    </section>
+</body>
+</html>
+</body>
+</html>

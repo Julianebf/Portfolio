@@ -8,8 +8,15 @@ services:
   php:
     ports:
       - 8000:8000
+    # volumes:
+    #   - ./projeto_portfolio:/var/www/html
+    environment:
+      - DB_HOST=mariadb
+      - DB_PORT=3306
+      - DB_USERNAME=bn_myapp
+      - DB_DATABASE=bitnami_myapp
     volumes:
-      - ./projeto_portfolio:/var/www/html
+      - './projeto_portfolio:/app'
 
   phpmyadmin:
     ports:

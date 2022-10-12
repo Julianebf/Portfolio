@@ -1,28 +1,35 @@
 version: '3.3'
 services:
-  dbMysql:
-    image: mysql:8.0
-    command: --default-authentication-plugin=mysql_native_password
-    environment:
-      MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: portifolio
-
+#   dbMysql:
+#     image: mysql:8.0
+#     command: --default-authentication-plugin=mysql_native_password
+#     environment:
+#       MYSQL_ROOT_PASSWORD: password
+#       MYSQL_DATABASE: portifolio
+  composer:
+    image: composer:2.4.2
+    volumes:
+      -'./projeto_portfolio:/app'
+    command: composer install --ignore-platform-reqs  
+  
   phpmyadmin:
     image: phpmyadmin
     environment:
       - PMA_ARBITRARY=1
-    links:
-      - dbMysql:dbMysql
+    # links:
+    #   - dbMysql:dbMysql
   
   php:
-    image: docker.io/bitnami/laravel:9
-    ports:
-      - '8000:8000'
-    environment:
-      - DB_HOST=mariadb
-      - DB_PORT=3306
-      - DB_USERNAME=bn_myapp
-      - DB_DATABASE=bitnami_myapp
-    volumes:
-      - './projeto_portfolio:/app'
+    networks:
+      xingu:
+    labels:
+      -"traefik.http.services.juliane_site.loadbalancer.server.port=8000"
+      -"traefik.http.services.juliane_site.routers.juliane_site.rule=Host('juliane.novostitas.org')"
+    # image: docker.io/bitnami/laravel:9
+    networks:
+      xingu:
+        external:
+          name: xingu 
+    
+    
    
