@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="/css/app.css">
-    <title>Portfolio</title>
-</head>
+    @include('head')
 <body>
-    @include('navbar');
+    @include('navbar')
     <section class="contact" id="contact">
         <div class="max-width">
             <h2 class="title">Contato</h2>
@@ -59,8 +53,9 @@
                         <div class="button">
                             <button type="submit">Enviar</button> </div> <br> 
                             <a class="insta" href="https://www.instagram.com/juliane_bzrr/" target="_blank"><img src="/css/images/insta.png" width="50px" alt=""></a>
-                             <a href="https://github.com/Julianebf" target="_blank"><img src="/css/images/github.png" width="50px" alt=""></a> 
-                             <a href="https://www.linkedin.com/in/juliane-bezerra-ferreira/" target="_blank"><img src="/css/images/linkedin.png" width="50px" alt=""></a> 
+                            <a href="https://github.com/Julianebf" target="_blank"><img src="/css/images/github.png" width="50px" alt=""></a> 
+                            <a href="https://www.linkedin.com/in/juliane-bezerra-ferreira/" target="_blank"><img src="/css/images/linkedin.png" width="50px" alt=""></a>
+                            <a href="https://wa.me/5588997801433" target="_blank"><img src="/css/images/whatss.png" width="50px" alt=""></a>  
                         </div>
                     </div>
                 </form>
@@ -68,7 +63,5 @@
             </div>
         </div>
     </section>
-</body>
-</html>
 </body>
 </html>
