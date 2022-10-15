@@ -3,6 +3,8 @@
 /public/hot
 /public/storage
 /storage/*.key
+/storage/logs
+/storange/framework
 /vendor
 .env
 .env.backup
@@ -15,3 +17,6 @@ yarn-error.log
 /.idea
 /.vscode
 /storage
+resources/storage/framework/views
+resources/storage/framework/logs
+
