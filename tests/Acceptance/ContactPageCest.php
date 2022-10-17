@@ -12,14 +12,33 @@ class ContactPageCest
     }
 
     // tests
-    public function ContactPage(AcceptanceTester $I)
+    public function ContactAreaTest(AcceptanceTester $I)
     {
         $I->amOnPage("/contact");
         $I->seeInTitle("Portfolio");
         $I->see("Contato","h2");
         $I->see("Juliane Bezerra");
-        //$I->click("https://www.instagram.com/juliane_bzrr/", "a");
+        $I->see("Enviar");
+    }
+
+    public function InstagramLinkTest(AcceptanceTester $I)
+    {
+        $I->amOnPage("/contact");
         $I->click('.insta');
         $I->see('juliane_bzrr');
     }
+
+    public function GithubLinkTest(AcceptanceTester $I)
+    {
+        $I->amOnPage("/contact");
+        $I->click('.github');
+        $I->see('Bacharel em Sistemas de Informações IFCE - Campus Cedro.');
+    }
+
+    public function WhatsapLinkTest(AcceptanceTester $I)
+    {
+        $I->amOnPage("/contact");
+        $I->click('.whats');
+    }
+
 }

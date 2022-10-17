@@ -31,7 +31,8 @@
                 </div>
             </div>
         </div>
-            </div><!--column left-->
+            </div> 
+            {{-- column left --}}
             <div class="column rigth">
                 <div class="text">Mensagem</div>
                 <form action="#">
@@ -48,14 +49,14 @@
                             <input type="text" placeholder="Sobrenome" required>
                         </div>
                         <div class="field textarea">
-                           <textarea  cols="30" rows="10" placeholder="Escrever...." required></textarea>
+                           <textarea  cols="30" rows="10" placeholder="Escrever..." required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Enviar</button> </div> <br> 
                             <a class="insta" href="https://www.instagram.com/juliane_bzrr/" target="_blank"><img src="/css/images/insta.png" width="50px" alt=""></a>
-                            <a href="https://github.com/Julianebf" target="_blank"><img src="/css/images/github.png" width="50px" alt=""></a> 
-                            <a href="https://www.linkedin.com/in/juliane-bezerra-ferreira/" target="_blank"><img src="/css/images/linkedin.png" width="50px" alt=""></a>
-                            <a href="https://wa.me/5588997801433" target="_blank"><img src="/css/images/whatss.png" width="50px" alt=""></a>  
+                            <a class="github" href="https://github.com/Julianebf" target="_blank"><img src="/css/images/github.png" width="50px" alt=""></a> 
+                            <a class="linkdin" href="https://www.linkedin.com/in/juliane-bezerra-ferreira/" target="_blank"><img src="/css/images/linkedin.png" width="50px" alt=""></a>
+                            <a class="whats" href="https://wa.me/5588997801433" target="_blank"><img src="/css/images/whatss.png" width="50px" alt=""></a>  
                         </div>
                     </div>
                 </form>

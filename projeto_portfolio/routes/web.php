@@ -1,26 +1,19 @@
 <?php
 
+use App\Http\Controllers\CertificateController;
+use App\Http\Controllers\ContactController;
+use App\Http\Controllers\ProjectsController;
+use App\Http\Controllers\SpecialtyController;
 use Illuminate\Support\Facades\Route;
 
-/*
-|--------------------------------------------------------------------------
-| Web Routes
-|--------------------------------------------------------------------------
-|
-| Here is where you can register web routes for your application. These
-| routes are loaded by the RouteServiceProvider within a group which
-| contains the "web" middleware group. Now create something great!
-|
-*/
 
-Route::get('/home', [\App\Http\Controllers\HomeController::class,'home']); 
+Route::get('/', ('HomeController@home'))->name('site.home'); 
+Route::get('/about', ('AboutController@about'))->name('site.about'); 
+Route::get('/certificate', ('CertificateController@certificate'))->name('site.certificate'); 
+Route::get('/specialty', ('SpecialtyController@specialty'))->name('site.specialty'); 
+Route::get('/projects', ('ProjectsController@projects'))->name('site.projects'); 
+Route::get('/contact', ('ContactController@contact'))->name('site.contact'); 
 
-Route::get('/about', [\App\Http\Controllers\AboutController::class,'about']); 
-
-Route::get('/certificate', [\App\Http\Controllers\CertificateController::class,'certificate']); 
-
-Route::get('/specialty', [\App\Http\Controllers\SpecialtyController::class,'specialty']); 
-
-Route::get('/projects', [\App\Http\Controllers\ProjectsController::class,'projects']); 
-
-Route::get('/contact', [\App\Http\Controllers\ContactController::class,'contact']); 
+Route::fallback(function() {
+    echo 'A rota acessada não existe.<a href="'.route('site.home').'">clique aqui</a> para ir para pagina inicial';
+});

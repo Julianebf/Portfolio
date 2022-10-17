@@ -3,7 +3,7 @@
     @include('head')
 <body>
     @include('navbar')
-    <!--home inicio-->
+    {{-- home inicio --}}
     <section class="home" id="home">
         <div class="max-width">
             <div class="home-content">
