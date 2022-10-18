@@ -53,10 +53,10 @@
                         </div>
                         <div class="button">
                             <button type="submit">Enviar</button> </div> <br> 
-                            <a class="insta" href="https://www.instagram.com/juliane_bzrr/" target="_blank"><img src="/css/images/insta.png" width="50px" alt=""></a>
-                            <a class="github" href="https://github.com/Julianebf" target="_blank"><img src="/css/images/github.png" width="50px" alt=""></a> 
-                            <a class="linkdin" href="https://www.linkedin.com/in/juliane-bezerra-ferreira/" target="_blank"><img src="/css/images/linkedin.png" width="50px" alt=""></a>
-                            <a class="whats" href="https://wa.me/5588997801433" target="_blank"><img src="/css/images/whatss.png" width="50px" alt=""></a>  
+                            <a class="insta" href="https://www.instagram.com/juliane_bzrr/" target="_blank"><img src="{{ asset('/css/images/insta.png')}}" width="50px" alt=""></a>
+                            <a class="github" href="https://github.com/Julianebf" target="_blank"><img src="{{ asset('/css/images/github.png')}}" width="50px" alt=""></a> 
+                            <a class="linkdin" href="https://www.linkedin.com/in/juliane-bezerra-ferreira/" target="_blank"><img src="{{ asset('/css/images/linkedin.png')}}" width="50px" alt=""></a>
+                            <a class="whats" href="https://wa.me/5588997801433" target="_blank"><img src="{{('/css/images/whatss.png')}}" width="50px" alt=""></a>  
                         </div>
                     </div>
                 </form>
