@@ -35,21 +35,22 @@
             {{-- column left --}}
             <div class="column rigth">
                 <div class="text">Mensagem</div>
-                <form action="#">
+                <form action={{ route('site.contact')}} method="post">
+                    @csrf
                     <div class="fields">
                         <div class="field name">
-                            <input type="text" placeholder="Nome" required>
+                            <input name="name" type="text" placeholder="Nome" required>
                         </div>
                         <div class="field email">
-                            <input type="email" placeholder="Email" required>
+                            <input name="email" type="email" placeholder="Email" required>
                         </div>
                     </div>
                     <div class="field">
                         <div class="field">
-                            <input type="text" placeholder="Sobrenome" required>
+                            <input name="lestname" type="text" placeholder="Sobrenome" required>
                         </div>
                         <div class="field textarea">
-                           <textarea  cols="30" rows="10" placeholder="Escrever..." required></textarea>
+                           <textarea name="text" cols="30" rows="10" placeholder="Escrever..." required></textarea>
                         </div>
                         <div class="button">
                             <button type="submit">Enviar</button> </div> <br> 

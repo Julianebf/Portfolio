@@ -14,6 +14,8 @@ Route::get('/specialty', ('SpecialtyController@specialty'))->name('site.specialt
 Route::get('/projects', ('ProjectsController@projects'))->name('site.projects'); 
 Route::get('/contact', ('ContactController@contact'))->name('site.contact'); 
 
+Route::post('/contact', ('ContactController@contact'))->name('site.contact'); 
+
 Route::fallback(function() {
     echo 'A rota acessada não existe.<a href="'.route('site.home').'">clique aqui</a> para ir para pagina inicial';
 });
