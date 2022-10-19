@@ -1,2 +1,2 @@
 /vendor
-docker-compose.yml
+docker-compose.override.example.yml
