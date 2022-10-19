@@ -9,3 +9,4 @@
 2. Verificar containers | docker ps
 3. Visualizar o projeto laravel no browser, digite a url  |localhost:8000
 
+
