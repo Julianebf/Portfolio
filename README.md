@@ -1,11 +1,12 @@
-# Portfolio
-## Requisitos
-* Docker
-* Docker Compose
 
+###Requisitos
+    * Unbutu 20.4
+    * PHP 8 
+    * Laravel 9
+    * Docker
 
-    1. Iniciar os containers: | docker-composer up -d 
-    2. Verificar containers: | docker ps
-    3. Visualizar o projeto estatico no browser, digite a url | localhost:8082
-    4. Visualizar o projeto do laravel no browser, digite a url | localhost:8000
-
+###Passo a passo
+1. Acesse a pasta do projeto
+2. Rode o comando **docker-compose up -d** no terminal: Para startar os containers
+3. Acesse no seu navegador a url **localhost:8000**
+4. Para acessar o banco de dados: Digite no seu navegador a url **localhost:8081**
