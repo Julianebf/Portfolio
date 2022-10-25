@@ -5,7 +5,7 @@ networks:
 services:
   dbMysql:
     image: mysql:8.0
-    container_name: datbase
+    container_name: portfolio_database
     command: --default-authentication-plugin=mysql_native_password
     restart: always
     networks:
