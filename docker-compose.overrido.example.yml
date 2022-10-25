@@ -6,7 +6,7 @@ services:
       - "3307:3306"
     environment:
       MYSQL_ROOT_PASSWORD: password
-      MYSQL_DATABASE: portifolio   
+      MYSQL_DATABASE: portfolio   
     
   php:
     ports:
@@ -19,7 +19,7 @@ services:
       - DB_CONNECTION=mysql
       - DB_HOST=db
       - DB_PORT=3306
-      - DB_DATABASE=portifolio
+      - DB_DATABASE=portfolio
       - DB_USERNAME=root
       - DB_PASSWORD=password
 
