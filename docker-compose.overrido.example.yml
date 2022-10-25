@@ -1,0 +1,29 @@
+version: '3.3'
+
+services:
+  dbMysql:
+    ports:
+      - "3307:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: portifolio   
+    
+  php:
+    ports:
+      - 8000:8000
+    volumes:
+      - './projeto_portfolio:/app'
+    depends_on:
+      - dbMysql
+    environment:
+      - DB_CONNECTION=mysql
+      - DB_HOST=db
+      - DB_PORT=3306
+      - DB_DATABASE=portifolio
+      - DB_USERNAME=root
+      - DB_PASSWORD=password
+
+  phpmyadmin:
+    ports:
+       - 8081:80
+    

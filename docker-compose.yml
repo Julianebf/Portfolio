@@ -1,0 +1,30 @@
+version: '3.3'
+networks:
+  teste-network:
+    driver: bridge
+services:
+  dbMysql:
+    image: mysql:8.0
+    container_name: datbase
+    command: --default-authentication-plugin=mysql_native_password
+    restart: always
+    networks:
+      - teste-network
+    
+
+  phpmyadmin:
+    image: phpmyadmin  
+    environment:
+      - PMA_ARBITRARY=1
+    links:
+      - dbMysql:dbMysql
+    networks:
+      - teste-network
+  
+  php:
+    image: docker.io/bitnami/laravel:9
+    container_name: portfolio
+    links:
+      - dbMysql:dbMysql
+    networks:
+      - teste-network
