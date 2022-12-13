@@ -1,1 +1,0 @@
-<h1> julianee </h1><?php /**PATH /home/juliane/titas_portfolio/Portfolio/projeto_portfolio/resources/views/about.blade.php ENDPATH**/ ?>
