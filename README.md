@@ -11,15 +11,9 @@
 <h3>Passo a passo</h3>
 
 1. Acesse a pasta do projeto<br>
-2. Para instalar o composer dentro da pasta do projeto no termial:
-   * Digite **sudo apt-get update**
-   * Digite **composer install --ignore-platform-reqs**
-   * Digite **sudo apt-get update** novamente.
-3. Para adicionar o composer no arquivo de configuração yml:
-   * composer:
-      image: composer:2.4.2<br>
-      volumes:<br>
-     - './projeto_portfolio:/app'<br>
-     command: **composer install --ignore-platform-reqs**
-4. Rode o comando **docker-compose up -d** no terminal: Para startar os containers<br>
-5. Acesse no seu navegador a url **localhost:8000**<br>
+2. Criar uma copia do aquivo .env.example e colocar o nome de .env<br>
+3. No terminal dentro da pasta projeto_portfolio digite php artisan key:generate<br>
+4. Criar uma copia do arquivo docker-compose.override.example.yml e colocar o nome de docker-compose.override.yml<br>
+6. Criar dentro das pastas storage/framework uma pasta com o nome de sessions<br>
+5. Rode o comando **docker-compose up -d** no terminal: Para startar os containers<br>
+6. Acesse no seu navegador a url **localhost:8000**<br>

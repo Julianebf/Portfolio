@@ -10,7 +10,6 @@ services:
     restart: always
     networks:
       - teste-network
-    
 
   phpmyadmin:
     image: phpmyadmin  
