@@ -8,7 +8,7 @@
     * Laravel 9
     * Docker
 
-<h3>Passo a passo</h3>
+<h3>Passo a passo!</h3>
 
 1. Acesse a pasta do projeto<br>
 2. Criar uma copia do aquivo .env.example e colocar o nome de .env<br>
