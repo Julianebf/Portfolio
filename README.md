@@ -17,3 +17,8 @@
 6. Criar dentro das pastas storage/framework uma pasta com o nome de sessions<br>
 5. Rode o comando **docker-compose up -d** no terminal: Para startar os containers<br>
 6. Acesse no seu navegador a url **localhost:8000**<br>
+7. Para baixar aquivo em formato pdf, instalar: 
+    <b> composer require maatwebsite/excel <b>
+    <b> composer require psr/simple-cache:^2.0 maatwebsite/excel <b>
+    <b> php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider" --tag=config <b> 
+8. No terminal criar diretorio dentro do diretorio storage <b> mkdir app/public <b> colocar o arquivo Curriculo.pdf dentro da pasta public criada. 
