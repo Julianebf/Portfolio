@@ -13,6 +13,7 @@ Route::get('/certificate', ('CertificateController@certificate'))->name('site.ce
 Route::get('/specialty', ('SpecialtyController@specialty'))->name('site.specialty'); 
 Route::get('/projects', ('ProjectsController@projects'))->name('site.projects'); 
 Route::get('/contact', ('ContactController@contact'))->name('site.contact'); 
+Route::get('/export', 'AboutController@export')->name('export');
 
 Route::fallback(function() {
     echo 'A rota acessada não existe.<a href="'.route('site.home').'">clique aqui</a> para ir para pagina inicial';
