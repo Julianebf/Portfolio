@@ -12,7 +12,7 @@
                 </div>
                 <div class="column right">
                     <div class="text">Sou Juliane, Bacharel em Sistemas de Informação pelo Instituto Federal de Educação Ciencias e tecnologia do Ceará<span class="typing-2"></span></div>
-                    <a href="#">Download CV</a>
+                    <a href="{{route('export')}}"> Download CV</a>
                 </div>
             </div>
         </div>
