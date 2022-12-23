@@ -11,8 +11,6 @@ services:
   php:
     ports:
       - 8000:8000
-    volumes:
-      - './projeto_portfolio:/app'
     depends_on:
       - dbMysql
     environment:
