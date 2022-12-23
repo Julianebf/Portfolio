@@ -23,6 +23,8 @@ services:
   php:
     image: docker.io/bitnami/laravel:9
     container_name: portfolio
+    volumes:
+      - './projeto_portfolio:/app'
     links:
       - dbMysql:dbMysql
     networks:
