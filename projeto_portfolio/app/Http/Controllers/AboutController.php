@@ -11,6 +11,6 @@ class AboutController extends Controller
     }
 
     public function export(){
-        return response()->download(file: storage_path().'/app/public/Curriculo.pdf');
+        return response()->download(file: storage_path().'/Curriculo.pdf');
     }
 }
