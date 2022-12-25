@@ -28,5 +28,4 @@ class ContactPageCest
         $I->click("Contato");
         $I->see("Mensagem");
     }
-
 }
