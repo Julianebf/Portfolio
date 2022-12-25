@@ -14,11 +14,12 @@
 2. Criar uma copia do aquivo .env.example e colocar o nome de .env<br>
 3. No terminal dentro da pasta projeto_portfolio digite php artisan key:generate<br>
 4. Criar uma copia do arquivo docker-compose.override.example.yml e colocar o nome de docker-compose.override.yml<br>
-6. Criar dentro das pastas storage/framework uma pasta com o nome de sessions<br>
-5. Rode o comando **docker-compose up -d** no terminal: Para startar os containers<br>
-6. Acesse no seu navegador a url **localhost:8000**<br>
-7. Para baixar aquivo em formato pdf, instalar: 
-    <b> composer require maatwebsite/excel <b>
-    <b> composer require psr/simple-cache:^2.0 maatwebsite/excel <b>
-    <b> php artisan vendor:publish --provider="Maatwebsite\Excel\ExcelServiceProvider" --tag=config <b> 
-8. No terminal criar diretorio dentro do diretorio storage <b> mkdir app/public <b> colocar o arquivo Curriculo.pdf dentro da pasta public criada. 
+5. Criar dentro das pastas storage/framework uma pasta com o nome de sessions<br>
+6. Rode o comando **docker-compose up -d** no terminal: Para startar os containers<br>
+7. Acesse no seu navegador a url **localhost:8000**<br>
+<h3>Testes Codeception</h3>
+<b>
+<b>Composer - versão 2.3.6</b>
+
+1. Para startar os testes acesse o diretorio.
+2. Com o site em funcionamento no browser, acesse os testes, digite no terminal o comando, php vendor/bin/codecept run --steps.
