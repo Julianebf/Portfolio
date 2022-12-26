@@ -4,7 +4,7 @@ namespace Tests\Acceptance;
 
 use Tests\Support\AcceptanceTester;
 
-class ContactPageCest
+class HomePageCest 
 {
     public function _before(AcceptanceTester $I)
     {
@@ -19,12 +19,12 @@ class ContactPageCest
         $I->see("Juliane");
         $I->click("Sobre");
         $I->see("Download CV");
-        $I->click("Certificado");
+        $I->click("Certificados");
         $I->see("Certificados");
         $I->click("Especialidade");
         $I->see("HTML");
         $I->click("Projetos");
-        $I->see("Que desenvolvi");
+        $I->see("Projetos");
         $I->click("Contato");
         $I->see("Mensagem");
     }
